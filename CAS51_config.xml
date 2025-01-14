@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><configuration><alertSettings><description>Virus is found</description><enabledEmail>true</enabledEmail><enabledLocal>false</enabledLocal><enabledSnmpTrap>true</enabledSnmpTrap><enabledSyslog>false</enabledSyslog><type>VIRUS</type></alertSettings><alertSettings><description>File was passed through without being scanned</description><enabledEmail>true</enabledEmail><enabledLocal>false</enabledLocal><enabledSnmpTrap>true</enabledSnmpTrap><enabledSyslog>false</enabledSyslog><type>NO_SCAN</type></alertSettings><alertSettings><description>File was blocked (exclude virus case)</description><enabledEmail>true</enabledEmail><enabledLocal>false</enabledLocal><enabledSnmpTrap>true</enabledSnmpTrap><enabledSyslog>false</enabledSyslog><type>BLOCKED</type></alertSettings><alertSettings><description>Anti-virus update failed</description><enabledEmail>true</enabledEmail><enabledLocal>false</enabledLocal><enabledSnmpTrap>true</enabledSnmpTrap><enabledSyslog>false</enabledSyslog><type>AV_UPDATE_ERROR</type></alertSettings><alertSettings><description>Anti-virus update succeeded</description><enabledEmail>true</enabledEmail><enabledLocal>false</enabledLocal><enabledSnmpTrap>true</enabledSnmpTrap><enabledSyslog>false</enabledSyslog><type>AV_UPDATE_OK</type></alertSettings><alertSettings><description>License is expired or expiring soon</description><enabledEmail>true</enabledEmail><enabledLocal>false</enabledLocal><enabledSnmpTrap>true</enabledSnmpTrap><enabledSyslog>false</enabledSyslog><type>LICENSE_EXPIRATION</type></alertSettings><alertSettings><description>Intelligent Connection Traffic Monitoring (ICTM)</description><enabledEmail>true</enabledEmail><enabledLocal>false</enabledLocal><enabledSnmpTrap>true</enabledSnmpTrap><enabledSyslog>false</enabledSyslog><type>ICTM</type></alertSettings><alertSettings><description>Reboot</description><enabledEmail>true</enabledEmail><enabledLocal>false</enabledLocal><enabledSnmpTrap>true</enabledSnmpTrap><enabledSyslog>false</enabledSyslog><type>REBOOT</type></alertSettings><alertSettings><description>Sandboxing Threat Admin Alert (Asynchronous)</description><enabledEmail>true</enabledEmail><enabledLocal>false</enabledLocal><enabledSnmpTrap>true</enabledSnmpTrap><enabledSyslog>false</enabledSyslog><type>SANDBOX_RESULT</type></alertSettings><alertSettings><description>Sandboxing Threat Alert</description><enabledEmail>true</enabledEmail><enabledLocal>false</enabledLocal><enabledSnmpTrap>true</enabledSnmpTrap><enabledSyslog>false</enabledSyslog><type>SANDBOXING_BLOCK</type></alertSettings><alertSettings><description>File Reputation Threat Alert</description><enabledEmail>true</enabledEmail><enabledLocal>false</enabledLocal><enabledSnmpTrap>true</enabledSnmpTrap><enabledSyslog>false</enabledSyslog><type>FILE_REPUTATION_BLOCK</type></alertSettings><alertSettings><description>Predictive Analysis Threat Alert</description><enabledEmail>true</enabledEmail><enabledLocal>false</enabledLocal><enabledSnmpTrap>true</enabledSnmpTrap><enabledSyslog>false</enabledSyslog><type>PREDICTIVE_ANALYSIS_BLOCK</type></alertSettings><alertSettings><description>File was blocked by user blacklist</description><enabledEmail>true</enabledEmail><enabledLocal>false</enabledLocal><enabledSnmpTrap>true</enabledSnmpTrap><enabledSyslog>false</enabledSyslog><type>HASHLIST_BLOCK</type></alertSettings><alertSettings><description>Hardware sensor detected a problem</description><enabledEmail>true</enabledEmail><enabledLocal>false</enabledLocal><enabledSnmpTrap>true</enabledSnmpTrap><enabledSyslog>false</enabledSyslog><type>HARDWARE_FAILURE</type></alertSettings><tzInfo><display>(UTC+08:00) [CST] China Standard Time, Asia/Taipei</display><region>Asia</region><path>Asia/Taipei</path></tzInfo><ntpsettings><active>true</active><ntpServers><configurationLine>server ntp1.net.symantec.com</configurationLine><host>ntp1.net.symantec.com</host></ntpServers><ntpServers><configurationLine>server ntp2.net.symantec.com</configurationLine><host>ntp2.net.symantec.com</host></ntpServers><ntpServers><configurationLine>server ntp3.net.symantec.com</configurationLine><host>ntp3.net.symantec.com</host></ntpServers></ntpsettings><snmpV2Info><enabled>false</enabled><readCommunityName>TzFzXMnD76zvpqJO9un+Ow==</readCommunityName></snmpV2Info><snmpV3Info><enabled>false</enabled><encryptionAlgorithm>AES</encryptionAlgorithm><hashAlgorithm>MD5</hashAlgorithm><passphrase>COkI8HCHUVlvygYb8dYjL3M1DwKqHyTVPV8N63jGmtQ=</passphrase><password>COkI8HCHUVlvygYb8dYjL3M1DwKqHyTVPV8N63jGmtQ=</password><securityLevel>noauth</securityLevel><username></username></snmpV3Info><snmpTrapInfo><community>TzFzXMnD76zvpqJO9un+Ow==</community><version></version></snmpTrapInfo><httpSettings><compressed_password_protected_sample_downloads><enabled>false</enabled></compressed_password_protected_sample_downloads><http_enabled>false</http_enabled><http_port>8081</http_port><https_enabled>true</https_enabled><https_port>8082</https_port><ui_inactivity_timeout_minutes>0</ui_inactivity_timeout_minutes></httpSettings><kasperskyPolicy><fileTypePolicies><action>SCAN</action><type>UNKNOWN</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>GIF</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>JPG</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>TIF</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>BMP</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>PNG</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>RTF</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>PLAIN</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>DOC</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>VSD</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>EXE</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MSCAB</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>ZIP</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>RAR</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>TAR</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>GZIP</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>BZ2</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>PDF</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>HTML</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>XML</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>SWF2</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>JAVA</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>ASCII</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>DOCFILE</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>XLS</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>PPT</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MSI</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>DLL</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MULTI_ZIP</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MULTI_RAR</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>TTF</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>ICC</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>ISO</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>SWF1</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>FLV</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>JS</type></fileTypePolicies><globalPolicyEnabled>false</globalPolicyEnabled><policyEnabled>false</policyEnabled></kasperskyPolicy><sophosPolicy><fileTypePolicies><action>SCAN</action><type>UNKNOWN</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>GIF</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>JPG</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>TIF</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>BMP</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>PNG</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>RTF</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>PLAIN</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>DOC</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>VSD</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>EXE</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MSCAB</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>ZIP</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>RAR</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>TAR</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>GZIP</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>BZ2</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>PDF</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>HTML</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>XML</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>SWF2</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>JAVA</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>ARJ</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>CMZ</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>LHA</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>STUFFIT_OLD</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>STUFFIT7</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>STUFFIT8</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>INST_SHIELD_CAB</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>UNIX_AR_CPIO</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>CONCAT_ARCHIVE</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>RPM</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>SYMBIAN_INST_SYS</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>VMS_SAV_SET</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>DIET_SELF_EX</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>PKLITE_SELF_EX</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>LZEX</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>UPX</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>PETITE_SELF_EX</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>ASPACK_SELF_EX</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>FSG_SELF_EX</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>PECOMPACT_SELF_EX</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>SFX_SELF_EX</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MIME</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>BASE64</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MAC_BINHEX</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MS_COMPRESS</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MSO</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>APPL_SINGE</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>UTF16BE</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>UTF16LE</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>UUE</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>UNIX_LINUX_EX</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MAC_BINARY</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MACHO_EX</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>JAVA_BYTE_CODE_CLASS</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>EPOC_EX</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MSPP97</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MSPP97_COMPRSS</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MS_CMP_HELP</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>OPEN_OFFICE</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MSWIND_HELP</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MSEXCEL95_FORMULAE</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MSEXCEL97_FORMULAE</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>EMBEDDED_DOC_OLE2</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>RIFF</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MP3</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MPEG</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MSWORD_BASIC_MACROS</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MSEXCEL95_MACROS</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MSVB_OFFICE97_PLUS</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MSVB_P_CODE</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MSVB_ENCODED</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>OLE2</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>VMS_LOOPBACK</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MS_OLOOK_EXP</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MS_MAC_OLOOK_EXP</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>UNIX_MBOX</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MAC_DAT_FORK</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MAC_RES_FORK</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>PALM_RES</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MSACCESS_MDB</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MS_WINMAIL_DAT</type></fileTypePolicies><globalPolicyEnabled>false</globalPolicyEnabled><policyEnabled>false</policyEnabled></sophosPolicy><globalPolicy><fileTypePolicies><action>SCAN</action><type>UNKNOWN</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>GIF</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>JPG</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>TIF</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>BMP</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>PNG</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>RTF</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>PLAIN</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>DOC</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>VSD</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>EXE</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MSCAB</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>ZIP</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>RAR</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>TAR</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>GZIP</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>BZ2</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>PDF</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>HTML</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>XML</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>SWF2</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>JAVA</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>ASCII</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>DOCFILE</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>XLS</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>PPT</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MSI</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>DLL</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MULTI_ZIP</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>MULTI_RAR</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>TTF</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>ICC</type></fileTypePolicies><fileTypePolicies><action>IGNORE</action><type>ISO</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>SWF1</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>FLV</type></fileTypePolicies><fileTypePolicies><action>SCAN</action><type>JS</type></fileTypePolicies><policyEnabled>false</policyEnabled></globalPolicy><service_settings><key>machine_name</key><value>CAS51</value></service_settings><service_settings><key>admin_email</key><value>albert.tsao@westcon.com</value></service_settings><service_settings><key>firmware_upgrade_url</key><value>https://192.168.77.100:8082/fs/download/ca817d622be048a387bf302c89b62ecf</value></service_settings><service_settings><key>on_virtual_machine</key><value>1</value></service_settings><service_settings><key>onebox_mode</key><value>0</value></service_settings><service_settings><key>response_cache_enabled</key><value>1</value></service_settings><service_settings><key>Password_Policy</key><value>1</value></service_settings><service_settings><key>Timeout_Policy</key><value>1</value></service_settings><service_settings><key>Other_Policy</key><value>1</value></service_settings><service_settings><key>ICAP_Port</key><value>1344</value></service_settings><service_settings><key>Decompress_Policy</key><value>1</value></service_settings><service_settings><key>Max_Archive_Depth_Policy</key><value>1</value></service_settings><service_settings><key>Max_Size_Policy</key><value>1</value></service_settings><service_settings><key>Max_Archive_Count_Policy</key><value>1</value></service_settings><service_settings><key>Max_Archive_Size_Policy</key><value>1</value></service_settings><service_settings><key>MaxFileSizeMB</key><value>100</value></service_settings><service_settings><key>Blocked_Exts</key><value></value></service_settings><service_settings><key>Ignored_Exts</key><value></value></service_settings><service_settings><key>symantec_active</key><value>1</value></service_settings><service_settings><key>Sym_InsightCloudReputationEnabled</key><value>1</value></service_settings><service_settings><key>Sym_TelemetryEnabled</key><value>1</value></service_settings><service_settings><key>Sym_EngineLogLevel</key><value>error</value></service_settings><service_settings><key>Sym_EnhancedScanEnabled</key><value>0</value></service_settings><service_settings><key>Sym_LiveUpdateAddress</key><value></value></service_settings><service_settings><key>Sym_LiveUpdateUseProxy</key><value>0</value></service_settings><service_settings><key>Sym_Timeout</key><value>800</value></service_settings><service_settings><key>Sym_MaxTotalArchiveSize</key><value>1000</value></service_settings><service_settings><key>Sym_MaxFilesInArchive</key><value>10000</value></service_settings><service_settings><key>Sym_MaxLayersArchive</key><value>16</value></service_settings><service_settings><key>Sym_AML_active</key><value>1</value></service_settings><service_settings><key>Sym_AML_heuristic_level</key><value>MEDIUM</value></service_settings><service_settings><key>Kas_AVDetectEngineHeuristic</key><value>0</value></service_settings><service_settings><key>kaspersky_active</key><value>0</value></service_settings><service_settings><key>Kas_AVDetectAdware</key><value>0</value></service_settings><service_settings><key>Kas_AVDetectSpyware</key><value>0</value></service_settings><service_settings><key>Kas_Timeout</key><value>800</value></service_settings><service_settings><key>Storage_Policy</key><value>1</value></service_settings><service_settings><key>Kas_Check_URL</key><value>0</value></service_settings><service_settings><key>Kas_Enhanced_Scan</key><value>0</value></service_settings><service_settings><key>Kas_MaxTotalArchiveSizeMB</key><value>1000</value></service_settings><service_settings><key>Kas_MaxLayersArchive</key><value>16</value></service_settings><service_settings><key>Kas_MaxFilesInArchive</key><value>10000</value></service_settings><service_settings><key>mcafee_active</key><value>0</value></service_settings><service_settings><key>Mca_AVDetectSpyware</key><value>0</value></service_settings><service_settings><key>Mca_AVDetectEngineHeuristic</key><value>0</value></service_settings><service_settings><key>Mca_Timeout</key><value>800</value></service_settings><service_settings><key>Mca_MaxTotalArchiveSizeMB</key><value>1000</value></service_settings><service_settings><key>Mca_MaxFilesInArchive</key><value>10000</value></service_settings><service_settings><key>Mca_MaxLayersArchive</key><value>16</value></service_settings><service_settings><key>sophos_active</key><value>0</value></service_settings><service_settings><key>Sop_Timeout</key><value>800</value></service_settings><service_settings><key>Sop_AVUseSophosWeakTypes</key><value>1</value></service_settings><service_settings><key>Sop_AVDetectAdware</key><value>0</value></service_settings><service_settings><key>Sop_MaxLayersArchive</key><value>16</value></service_settings><service_settings><key>Sop_MaxTotalArchiveSizeMB</key><value>1000</value></service_settings><service_settings><key>Sop_MaxFilesInArchive</key><value>10000</value></service_settings><service_settings><key>clam_active</key><value>1</value></service_settings><service_settings><key>SICAP_enabled</key><value>0</value></service_settings><service_settings><key>SICAP_Port</key><value>11344</value></service_settings><service_settings><key>SICAP_cert</key><value>/data/bluecoat/avenger/certificates</value></service_settings><service_settings><key>SICAP_handshakes</key><value>48</value></service_settings><service_settings><key>SICAP_ciphers</key><value>TLS_AES_256_GCM_SHA384,TLS_CHACHA20_POLY1305_SHA256,TLS_AES_128_GCM_SHA256,AES256-GCM-SHA384,AES256-CCM,AES128-GCM-SHA256,AES128-CCM,AES256-SHA256,AES128-SHA256,AES256-SHA,AES128-SHA,DES-CBC3-SHA</value></service_settings><service_settings><key>icap_accesslist</key><value></value></service_settings><service_settings><key>ICAP_enabled</key><value>true</value></service_settings><service_settings><key>reporter_ftp_username</key><value>labftpuser</value></service_settings><service_settings><key>reporter_enabled</key><value>true</value></service_settings><service_settings><key>reporter_address</key><value>192.168.77.50</value></service_settings><service_settings><key>reporter_ftp_interval_minutes</key><value>15</value></service_settings><service_settings><key>reporter_ftp_use_proxy</key><value>0</value></service_settings><service_settings><key>reporter_ftp_port</key><value>21</value></service_settings><service_settings><key>reporter_ftp_enabled</key><value>1</value></service_settings><service_settings><key>reporter_ftp_secure</key><value>0</value></service_settings><service_settings><key>reporter_ftp_path</key><value>/CAS</value></service_settings><service_settings><key>syslog_Dest</key><value></value></service_settings><service_settings><key>syslog_Port</key><value>514</value></service_settings><service_settings><key>syslog_Facility</key><value>-1</value></service_settings><service_settings><key>syslog_Protocol</key><value>0</value></service_settings><service_settings><key>LOCAL</key><value></value></service_settings><service_settings><key>EMAIL</key><value>AV_UPDATE_ERROR,AV_UPDATE_OK,REBOOT,VIRUS,NO_SCAN,BLOCKED,ICTM,SANDBOX_RESULT,SANDBOXING_BLOCK,FILE_REPUTATION_BLOCK,PREDICTIVE_ANALYSIS_BLOCK,LICENSE_EXPIRATION,HASHLIST_BLOCK,HARDWARE_FAILURE</value></service_settings><service_settings><key>SNMP</key><value>AV_UPDATE_ERROR,AV_UPDATE_OK,REBOOT,VIRUS,NO_SCAN,BLOCKED,ICTM,SANDBOX_RESULT,SANDBOXING_BLOCK,FILE_REPUTATION_BLOCK,PREDICTIVE_ANALYSIS_BLOCK,LICENSE_EXPIRATION,HASHLIST_BLOCK,HARDWARE_FAILURE</value></service_settings><service_settings><key>SYSLOG</key><value></value></service_settings><service_settings><key>ictm_enabled</key><value>1</value></service_settings><service_settings><key>ictm_seconds</key><value>30</value></service_settings><service_settings><key>ictm_drop_alert_enabled</key><value>0</value></service_settings><service_settings><key>ictm_warning_alert_enabled</key><value>1</value></service_settings><service_settings><key>ictm_drop_threshold</key><value>30</value></service_settings><service_settings><key>ictm_warning_alert_repeat_minutes</key><value>60</value></service_settings><service_settings><key>ictm_warning_threshold</key><value>20</value></service_settings><service_settings><key>webpulse_feedback_enabled</key><value>1</value></service_settings><service_settings><key>logger_syslog</key><value>ICAP:disabled,INTERNAL:disabled,MODULES:disabled,KASPERSKY:disabled,SSL:disabled,MCAFEE:disabled,SOPHOS:disabled,AUDIT:disabled,ICAP_CONNECTION:disabled,AV_WATCHDOG:disabled,SANDBOXING:disabled,FILE_REPUTATION:disabled,PATTERN_UPDATES:disabled,PREDICTIVE_ANALYSIS:disabled,SYMANTEC:disabled</value></service_settings><service_settings><key>logger_file</key><value>ICAP:ERROR,INTERNAL:ERROR,MODULES:ERROR,KASPERSKY:ERROR,SSL:ERROR,MCAFEE:ERROR,SOPHOS:ERROR,AUDIT:INFO,ICAP_CONNECTION:INFO,AV_WATCHDOG:ERROR,SANDBOXING:ERROR,FILE_REPUTATION:ERROR,PATTERN_UPDATES:ERROR,PREDICTIVE_ANALYSIS:ERROR,SYMANTEC:ERROR</value></service_settings><service_settings><key>historical_connections</key><value>50</value></service_settings><service_settings><key>file_reputation_active</key><value>1</value></service_settings><smtpSettings><CC>albert.symantc@gmail.com</CC><encryption><type>TLS</type><verifyCertificate>false</verifyCertificate></encryption><from>albert.symantc@gmail.com</from><port>465</port><smtpServer>smtp.gmail.com</smtpServer><to>albert.tsao@westcon.com</to><userName>albert.symantc@gmail.com</userName><userPassword>fVaJmVvGolJKB1dNMvrcEg==</userPassword></smtpSettings><templates><type>GENERIC</type></templates><templates><messageHtml></messageHtml><messageTxt>%TIMESTAMP
+ Hardware serial number: %HWSERIALNUMBER
+ %APPNAME %APPVERSION - http://www.symantec.com
+ Antivirus Vendor: %AVVENDOR
+ Scan Engine Version: %AVENGINEVERS
+ Pattern File Version: %AVPATTERNVERS (Pattern date: %AVPATTERNDATE)
+
+ Machine name: %MACHINENAME
+ Machine IP address: %MACHINEIP
+ Server: %SERVER
+ Client: %CLIENT
+
+ Virus/PUS: '%VIRUS' found!
+ URL: %URL</messageTxt><subject>CAS Administrative Alert</subject><type>VIRUS_REQ</type></templates><templates><messageHtml></messageHtml><messageTxt>%TIMESTAMP
+ Hardware serial number: %HWSERIALNUMBER
+ %APPNAME %APPVERSION - http://www.symantec.com
+ Antivirus Vendor: %AVVENDOR
+ Scan Engine Version: %AVENGINEVERS
+ Pattern File Version: %AVPATTERNVERS (Pattern date: %AVPATTERNDATE)
+
+ Machine name: %MACHINENAME
+ Machine IP address: %MACHINEIP
+ Server: %SERVER
+ Client: %CLIENT
+
+ Virus/PUS: '%VIRUS' found!
+ URL: %URL</messageTxt><subject>CAS Administrative Alert</subject><type>VIRUS_RES</type></templates><templates><messageHtml></messageHtml><messageTxt>%REASON
+
+ %ACTION
+
+ %TIMESTAMP
+ Hardware serial number: %HWSERIALNUMBER
+ %APPNAME %APPVERSION - http://www.symantec.com
+ Antivirus Vendor: %AVVENDOR
+ Scan Engine Version: %AVENGINEVERS
+ Pattern File Version: %AVPATTERNVERS (Pattern date: %AVPATTERNDATE)
+
+ Machine name: %MACHINENAME
+ Machine IP address: %MACHINEIP
+ Server: %SERVER
+ Client: %CLIENT
+
+ URL: %URL</messageTxt><subject>CAS Administrative Alert</subject><type>NOSCAN_REQ</type></templates><templates><messageHtml></messageHtml><messageTxt>%REASON
+
+ %ACTION
+
+ %TIMESTAMP
+ Hardware serial number: %HWSERIALNUMBER
+ %APPNAME %APPVERSION - http://www.symantec.com
+ Antivirus Vendor: %AVVENDOR
+ Scan Engine Version: %AVENGINEVERS
+ Pattern File Version: %AVPATTERNVERS (Pattern date: %AVPATTERNDATE)
+
+ Machine name: %MACHINENAME
+ Machine IP address: %MACHINEIP
+ Server: %SERVER
+ Client: %CLIENT
+
+ URL: %URL</messageTxt><subject>CAS Administrative Alert</subject><type>NOSCAN_RES</type></templates><templates><messageHtml></messageHtml><messageTxt>%REASON
+
+ %TIMESTAMP
+ Hardware serial number: %HWSERIALNUMBER
+ %APPNAME %APPVERSION - http://www.symantec.com
+ Machine name: %MACHINENAME
+ Machine IP address: %MACHINEIP
+
+ 'Slow' ICAP connections:
+ %URL</messageTxt><subject>CAS Administrative Alert</subject><type>ICTM_WARN</type></templates><templates><messageHtml></messageHtml><messageTxt>%REASON
+
+ Dropped 'slow' ICAP connections:
+ %ACTION
+
+ %TIMESTAMP
+ Hardware serial number: %HWSERIALNUMBER
+ %APPNAME %APPVERSION - http://www.symantec.com
+ Machine name: %MACHINENAME
+ Machine IP address: %MACHINEIP
+
+ 'Slow' ICAP connections:
+ %URL</messageTxt><subject>CAS Administrative Alert</subject><type>ICTM_CRIT</type></templates><templates><messageHtml></messageHtml><messageTxt>&lt;html&gt;
+   &lt;head&gt;
+	 &lt;title&gt;&lt;/title&gt;
+   &lt;/head&gt;
+   &lt;body style='FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 9pt; FONT-WEIGHT: lighter; TEXT-DECORATION: none; HEIGHT: 22'&gt;
+	 &lt;script language='javascript' defer&gt;
+	   &lt;!--
+	   alert('WARNING: %APPNAME has detected a virus/PUS in this file!  %ACTION Virus/PUS: '%VIRUS' found!');
+	   //--&gt;
+	 &lt;/script&gt;
+	 &lt;h3&gt;
+	   &lt;font color='red'&gt;WARNING: %APPNAME has detected a virus/PUS in this&lt;br&gt;file!&lt;br&gt;&lt;br&gt;&lt;/font&gt;
+	 &lt;/h3&gt;
+	 %ACTION&lt;br/&gt;
+	 %APPNAME Administrator: %ADMINMAIL
+	 &lt;br/&gt;&lt;br/&gt;
+	 %TIMESTAMP
+	 &lt;br/&gt;Hardware serial number: %HWSERIALNUMBER
+	 &lt;br/&gt;%APPNAME %APPVERSION - http://www.symantec.com
+	 &lt;br/&gt;Antivirus Vendor: %AVVENDOR
+	 &lt;br/&gt;Scan Engine Version: %AVENGINEVERS
+	 &lt;br/&gt;Pattern File Version: %AVPATTERNVERS (Timestamp: %AVPATTERNDATE)
+	 &lt;br/&gt;&lt;br/&gt;
+	 Machine name: %MACHINENAME
+	 &lt;br/&gt;Machine IP address: %MACHINEIP
+	 &lt;br/&gt;Server: %SERVER
+	 &lt;br/&gt;Client: %CLIENT
+	 &lt;br/&gt;Virus/PUS: '%VIRUS' found!
+	 &lt;br/&gt;URL: %URL
+	 &lt;br/&gt;
+   &lt;/body&gt;
+ &lt;/html&gt;</messageTxt><type>BODY_REQ</type></templates><templates><messageHtml></messageHtml><messageTxt>&lt;html&gt;
+   &lt;head&gt;
+	 &lt;title&gt;&lt;/title&gt;
+   &lt;/head&gt;
+   &lt;body style='FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 9pt; FONT-WEIGHT: lighter; TEXT-DECORATION: none; HEIGHT: 22'&gt;
+	 &lt;script language='javascript' defer&gt;
+	   &lt;!--
+	   alert('WARNING: %APPNAME has detected a virus/PUS in this file!  %ACTION Virus/PUS: '%VIRUS' found!');
+	   //--&gt;
+	 &lt;/script&gt;
+	 &lt;h3&gt;
+	   &lt;font color='red'&gt;WARNING: %APPNAME has detected a virus/PUS in this&lt;br&gt;file!&lt;br&gt;&lt;br&gt;&lt;/font&gt;
+	 &lt;/h3&gt;
+	 %ACTION&lt;br/&gt;
+	 %APPNAME Administrator: %ADMINMAIL
+	 &lt;br/&gt;&lt;br/&gt;
+	 %TIMESTAMP
+	 &lt;br/&gt;Hardware serial number: %HWSERIALNUMBER
+	 &lt;br/&gt;%APPNAME %APPVERSION - http://www.symantec.com
+	 &lt;br/&gt;Antivirus Vendor: %AVVENDOR
+	 &lt;br/&gt;Scan Engine Version: %AVENGINEVERS
+	 &lt;br/&gt;Pattern File Version: %AVPATTERNVERS (Timestamp: %AVPATTERNDATE)
+	 &lt;br/&gt;&lt;br/&gt;
+	 Machine name: %MACHINENAME
+	 &lt;br/&gt;Machine IP address: %MACHINEIP
+	 &lt;br/&gt;Server: %SERVER
+	 &lt;br/&gt;Client: %CLIENT
+	 &lt;br/&gt;Virus/PUS: '%VIRUS' found!
+	 &lt;br/&gt;URL: %URL
+	 &lt;br/&gt;
+   &lt;/body&gt;
+ &lt;/html&gt;</messageTxt><type>BODY_RES</type></templates><templates><messageHtml></messageHtml><messageTxt>Virus: %VIRUS; File: %FILE; Sub File: %SUBFILE; Vendor: %AVVENDOR; Engine version: %AVENGINEVERS; Pattern version: %AVPATTERNVERS; Pattern date: %AVPATTERNDATE</messageTxt><subject></subject><type>VIRUS_XHEADER</type></templates><templates><messageHtml></messageHtml><messageTxt>%REASON; File: %FILE; Sub File: %SUBFILE; Vendor: %AVVENDOR; Engine version: %AVENGINEVERS; Pattern version: %AVPATTERNVERS; Pattern date: %AVPATTERNDATE</messageTxt><subject></subject><type>ERROR_XHEADER</type></templates><templates><messageTxt>%TIMESTAMP
+ Hardware serial number: %HWSERIALNUMBER
+ %APPNAME %APPVERSION - http://www.symantec.com
+ Sandbox Vendor: %SANDBOX_VENDOR
+
+ Machine name: %MACHINENAME
+ Machine IP address: %MACHINEIP
+ Server: %SERVER
+ Client: %CLIENT
+
+ Risk score: %THREAT_SCORE
+ URL: %URL
+ Results: %THREAT_HTML_URL
+ CAS Threat Report: %CAS_REPORT_URL
+
+ FireEye Results: %FIREEYE_THREAT_HTML_URL
+ Solera PCAP: %SOLERA_PCAP_URL
+
+ CounterTack Results: %COUNTERTACK_TEXT_DETAILS
+ %COUNTERTACK_URL</messageTxt><subject>CAS Administrative Alert</subject><type>THREAT_EMAIL</type></templates><templates><type>THREAT_ALERT</type></templates><templates><messageHtml></messageHtml><messageTxt>&lt;html&gt;
+   &lt;head&gt;
+	 &lt;title&gt;&lt;/title&gt;
+   &lt;/head&gt;
+   &lt;body style='FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 9pt; FONT-WEIGHT: lighter; TEXT-DECORATION: none; HEIGHT: 22'&gt;
+	 &lt;script language='javascript' defer&gt;
+	   &lt;!--
+	   alert('WARNING: %APPNAME has detected a threat in this file!');
+	   //--&gt;
+	 &lt;/script&gt;
+	 &lt;h3&gt;
+	   &lt;font color='red'&gt;WARNING: %APPNAME has detected a threat in this&lt;br&gt;file!&lt;br&gt;Threat detected based on file reputation score&lt;br&gt;&lt;/font&gt;
+	 &lt;/h3&gt;
+	 %ACTION&lt;br/&gt;
+	 %APPNAME Administrator: %ADMINMAIL
+	 &lt;br/&gt;&lt;br/&gt;
+	 %TIMESTAMP
+	 &lt;br/&gt;Hardware serial number: %HWSERIALNUMBER
+	 &lt;br/&gt;%APPNAME %APPVERSION - http://www.symantec.com
+	 &lt;br/&gt;&lt;br/&gt;
+	 Machine name: %MACHINENAME
+	 &lt;br/&gt;Machine IP address: %MACHINEIP
+	 &lt;br/&gt;Server: %SERVER
+	 &lt;br/&gt;Client: %CLIENT
+	 &lt;br/&gt;URL: %URL
+	 &lt;br/&gt;
+   &lt;/body&gt;
+ &lt;/html&gt;</messageTxt><type>THREAT_BODY_WHITELISTING_RESP</type></templates><templates><messageHtml></messageHtml><messageTxt>&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;&lt;/title&gt;
+&lt;/head&gt;
+&lt;body style='FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 9pt; FONT-WEIGHT: lighter; TEXT-DECORATION: none; HEIGHT: 22'&gt;
+&lt;script language='javascript' defer&gt;
+&lt;!--
+alert('WARNING: %APPNAME has detected a threat in this file!');
+//--&gt;
+&lt;/script&gt;
+&lt;h3&gt;
+&lt;font color='red'&gt;WARNING: %APPNAME has detected a threat in this&lt;br&gt;file!&lt;br&gt;Threat detected based on Sandboxing results&lt;br&gt;&lt;/font&gt;
+&lt;/h3&gt;
+%ACTION&lt;br/&gt;
+%APPNAME Administrator: %ADMINMAIL
+&lt;br/&gt;&lt;br/&gt;
+%TIMESTAMP
+&lt;br/&gt;Hardware serial number: %HWSERIALNUMBER
+&lt;br/&gt;%APPNAME %APPVERSION - http://www.symantec.com
+&lt;br/&gt;&lt;br/&gt;
+Machine name: %MACHINENAME
+&lt;br/&gt;Machine IP address: %MACHINEIP
+&lt;br/&gt;Server: %SERVER
+&lt;br/&gt;Client: %CLIENT
+&lt;br/&gt;URL: %URL
+&lt;br/&gt;
+&lt;/body&gt;
+&lt;/html&gt;</messageTxt><type>THREAT_BODY_SANDBOXING_RESP</type></templates><templates><messageHtml></messageHtml><messageTxt>%REASON
+
+ %ACTION
+
+ %TIMESTAMP
+ Hardware serial number: %HWSERIALNUMBER
+ %APPNAME %APPVERSION - http://www.symantec.com
+
+ Machine name: %MACHINENAME
+ Machine IP address: %MACHINEIP
+ Server: %SERVER
+ Client: %CLIENT
+
+ URL: %URL</messageTxt><subject>CAS Administrative Alert</subject><type>THREAT_ALERT_WHITELISTING_RESP</type></templates><templates><messageHtml></messageHtml><messageTxt>%REASON
+
+ %ACTION
+
+ %TIMESTAMP
+ Hardware serial number: %HWSERIALNUMBER
+ %APPNAME %APPVERSION - http://www.symantec.com
+
+ Machine name: %MACHINENAME
+ Machine IP address: %MACHINEIP
+ Server: %SERVER
+ Client: %CLIENT
+
+ URL: %URL
+
+ Full report: %THREAT_HTML_URL
+ %FIREEYE_THREAT_HTML_URL</messageTxt><subject>CAS Administrative Alert</subject><type>THREAT_ALERT_SANDBOXING_RESP</type></templates><templates><messageHtml></messageHtml><messageTxt>&lt;html&gt;
+   &lt;head&gt;
+	 &lt;title&gt;&lt;/title&gt;
+   &lt;/head&gt;
+   &lt;body style='FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 9pt; FONT-WEIGHT: lighter; TEXT-DECORATION: none; HEIGHT: 22'&gt;
+	 &lt;script language='javascript' defer&gt;
+	   &lt;!--
+	   alert('WARNING: %APPNAME has detected a threat in this file!');
+	   //--&gt;
+	 &lt;/script&gt;
+	 &lt;h3&gt;
+	   &lt;font color='red'&gt;WARNING: %APPNAME has detected a threat in this&lt;br&gt;file!&lt;br&gt;Threat detected based on file reputation score&lt;br&gt;&lt;/font&gt;
+	 &lt;/h3&gt;
+	 %ACTION&lt;br/&gt;
+	 %APPNAME Administrator: %ADMINMAIL
+	 &lt;br/&gt;&lt;br/&gt;
+	 %TIMESTAMP
+	 &lt;br/&gt;Hardware serial number: %HWSERIALNUMBER
+	 &lt;br/&gt;%APPNAME %APPVERSION - http://www.symantec.com
+	 &lt;br/&gt;&lt;br/&gt;
+	 Machine name: %MACHINENAME
+	 &lt;br/&gt;Machine IP address: %MACHINEIP
+	 &lt;br/&gt;Server: %SERVER
+	 &lt;br/&gt;Client: %CLIENT
+	 &lt;br/&gt;URL: %URL
+	 &lt;br/&gt;
+   &lt;/body&gt;
+ &lt;/html&gt;</messageTxt><type>THREAT_BODY_WHITELISTING_REQ</type></templates><templates><messageHtml></messageHtml><messageTxt>&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;&lt;/title&gt;
+&lt;/head&gt;
+&lt;body style='FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 9pt; FONT-WEIGHT: lighter; TEXT-DECORATION: none; HEIGHT: 22'&gt;
+&lt;script language='javascript' defer&gt;
+&lt;!--
+alert('WARNING: %APPNAME has detected a threat in this file!');
+//--&gt;
+&lt;/script&gt;
+&lt;h3&gt;
+&lt;font color='red'&gt;WARNING: %APPNAME has detected a threat in this&lt;br&gt;file!&lt;br&gt;Threat detected based on Sandboxing results&lt;br&gt;&lt;/font&gt;
+&lt;/h3&gt;
+%ACTION&lt;br/&gt;
+%APPNAME Administrator: %ADMINMAIL
+&lt;br/&gt;&lt;br/&gt;
+%TIMESTAMP
+&lt;br/&gt;Hardware serial number: %HWSERIALNUMBER
+&lt;br/&gt;%APPNAME %APPVERSION - http://www.symantec.com
+&lt;br/&gt;&lt;br/&gt;
+Machine name: %MACHINENAME
+&lt;br/&gt;Machine IP address: %MACHINEIP
+&lt;br/&gt;Server: %SERVER
+&lt;br/&gt;Client: %CLIENT
+&lt;br/&gt;URL: %URL
+&lt;br/&gt;
+&lt;/body&gt;
+&lt;/html&gt;</messageTxt><type>THREAT_BODY_SANDBOXING_REQ</type></templates><templates><messageHtml></messageHtml><messageTxt>%REASON
+
+ %ACTION
+
+ %TIMESTAMP
+ Hardware serial number: %HWSERIALNUMBER
+ %APPNAME %APPVERSION - http://www.symantec.com
+
+ Machine name: %MACHINENAME
+ Machine IP address: %MACHINEIP
+ Server: %SERVER
+ Client: %CLIENT
+
+ URL: %URL</messageTxt><subject>CAS Administrative Alert</subject><type>THREAT_ALERT_WHITELISTING_REQ</type></templates><templates><messageHtml></messageHtml><messageTxt>%REASON
+
+ %ACTION
+
+ %TIMESTAMP
+ Hardware serial number: %HWSERIALNUMBER
+ %APPNAME %APPVERSION - http://www.symantec.com
+
+ Machine name: %MACHINENAME
+ Machine IP address: %MACHINEIP
+ Server: %SERVER
+ Client: %CLIENT
+
+ URL: %URL
+
+ Full report: %THREAT_HTML_URL
+ %FIREEYE_THREAT_HTML_URL</messageTxt><subject>CAS Administrative Alert</subject><type>THREAT_ALERT_SANDBOXING_REQ</type></templates><templates><type>WHITELISTING_XHEADER</type></templates><templates><type>FIREEYE_XHEADER</type></templates><templates><type>MAA_XHEADER</type></templates><templates><type>LASTLINE_XHEADER</type></templates><templates><messageHtml></messageHtml><messageTxt>%REASON
+
+%ACTION
+
+%TIMESTAMP
+Hardware serial number: %HWSERIALNUMBER
+%APPNAME %APPVERSION - http://www.symantec.com
+Predictive Analysis Vendor: %AVVENDOR
+Version: %AVENGINEVERS
+
+Machine name: %MACHINENAME
+Machine IP address: %MACHINEIP
+Server: %SERVER
+Client: %CLIENT
+
+URL: %URL
+Threat Score: %AV_SYMANTEC_AML_SCORE
+Threat Details:
+%AV_SYMANTEC_AML_DETAILS</messageTxt><subject>CAS Administrative Alert</subject><type>THREAT_ALERT_STATIC_ANALYSIS_RESP</type></templates><templates><messageHtml></messageHtml><messageTxt>%REASON
+
+%ACTION
+
+%TIMESTAMP
+Hardware serial number: %HWSERIALNUMBER
+%APPNAME %APPVERSION - http://www.symantec.com
+Predictive Analysis Vendor: %AVVENDOR
+Version: %AVENGINEVERS
+
+Machine name: %MACHINENAME
+Machine IP address: %MACHINEIP
+Server: %SERVER
+Client: %CLIENT
+
+URL: %URL
+Threat Score: %AV_SYMANTEC_AML_SCORE
+Threat Details:
+%AV_SYMANTEC_AML_DETAILS</messageTxt><subject>CAS Administrative Alert</subject><type>THREAT_ALERT_STATIC_ANALYSIS_REQ</type></templates><templates><messageHtml></messageHtml><messageTxt>&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;&lt;/title&gt;
+&lt;/head&gt;
+&lt;body style='FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 9pt; FONT-WEIGHT: lighter; TEXT-DECORATION: none; HEIGHT: 22'&gt;
+&lt;script language='javascript' defer&gt;
+&lt;!--
+alert('WARNING: %APPNAME has detected a threat in this file!');
+//--&gt;
+&lt;/script&gt;
+&lt;h3&gt;
+&lt;font color='red'&gt;WARNING: %APPNAME has detected a threat in this&lt;br&gt;file!&lt;br&gt;Threat detected based on Predictive Analysis&lt;br&gt;&lt;/font&gt;
+&lt;/h3&gt;
+%ACTION&lt;br/&gt;
+%APPNAME Administrator: %ADMINMAIL
+&lt;br/&gt;&lt;br/&gt;
+%TIMESTAMP
+&lt;br/&gt;Hardware serial number: %HWSERIALNUMBER
+&lt;br/&gt;%APPNAME %APPVERSION - http://www.symantec.com
+&lt;br/&gt;&lt;br/&gt;
+Machine name: %MACHINENAME
+&lt;br/&gt;Machine IP address: %MACHINEIP
+&lt;br/&gt;Server: %SERVER
+&lt;br/&gt;Client: %CLIENT
+&lt;br/&gt;URL: %URL
+&lt;br/&gt;Threat Score: %AV_SYMANTEC_AML_SCORE
+&lt;br/&gt;Threat Details:
+&lt;br/&gt;%AV_SYMANTEC_AML_DETAILS
+&lt;/body&gt;
+&lt;/html&gt;</messageTxt><type>THREAT_BODY_STATIC_ANALYSIS_RESP</type></templates><templates><messageHtml></messageHtml><messageTxt>&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;&lt;/title&gt;
+&lt;/head&gt;
+&lt;body style='FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 9pt; FONT-WEIGHT: lighter; TEXT-DECORATION: none; HEIGHT: 22'&gt;
+&lt;script language='javascript' defer&gt;
+&lt;!--
+alert('WARNING: %APPNAME has detected a threat in this file!');
+//--&gt;
+&lt;/script&gt;
+&lt;h3&gt;
+&lt;font color='red'&gt;WARNING: %APPNAME has detected a threat in this&lt;br&gt;file!&lt;br&gt;Threat detected based on Predictive Analysis&lt;br&gt;&lt;/font&gt;
+&lt;/h3&gt;
+%ACTION&lt;br/&gt;
+%APPNAME Administrator: %ADMINMAIL
+&lt;br/&gt;&lt;br/&gt;
+%TIMESTAMP
+&lt;br/&gt;Hardware serial number: %HWSERIALNUMBER
+&lt;br/&gt;%APPNAME %APPVERSION - http://www.symantec.com
+&lt;br/&gt;&lt;br/&gt;
+Machine name: %MACHINENAME
+&lt;br/&gt;Machine IP address: %MACHINEIP
+&lt;br/&gt;Server: %SERVER
+&lt;br/&gt;Client: %CLIENT
+&lt;br/&gt;URL: %URL
+&lt;br/&gt;Threat Score: %AV_SYMANTEC_AML_SCORE
+&lt;br/&gt;Threat Details:
+&lt;br/&gt;%AV_SYMANTEC_AML_DETAILS
+&lt;/body&gt;
+&lt;/html&gt;</messageTxt><type>THREAT_BODY_STATIC_ANALYSIS_REQ</type></templates><templates><type>STATIC_ANALYSIS_XHEADER</type></templates><templates><messageHtml></messageHtml><messageTxt>%REASON
+
+%ACTION
+
+%TIMESTAMP
+Hardware serial number: %HWSERIALNUMBER
+%APPNAME %APPVERSION - http://www.symantec.com
+
+Machine name: %MACHINENAME
+Machine IP address: %MACHINEIP
+Server: %SERVER
+Client: %CLIENT
+URL: %URL</messageTxt><subject>CAS Administrative Alert</subject><type>BLACKLIST_HASH_ALERT_UPLOAD</type></templates><templates><messageHtml></messageHtml><messageTxt>%REASON
+
+%ACTION
+
+%TIMESTAMP
+Hardware serial number: %HWSERIALNUMBER
+%APPNAME %APPVERSION - http://www.symantec.com
+
+Machine name: %MACHINENAME
+Machine IP address: %MACHINEIP
+Server: %SERVER
+Client: %CLIENT
+URL: %URL</messageTxt><subject>CAS Administrative Alert</subject><type>BLACKLIST_HASH_ALERT_DOWNLOAD</type></templates><templates><messageHtml></messageHtml><messageTxt>&lt;html&gt;
+   &lt;head&gt;
+	 &lt;title&gt;&lt;/title&gt;
+   &lt;/head&gt;
+   &lt;body style='FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 9pt; FONT-WEIGHT: lighter; TEXT-DECORATION: none; HEIGHT: 22'&gt;
+	 &lt;script language='javascript' defer&gt;
+	   &lt;!--
+	   alert('WARNING: %APPNAME has detected a threat in this file!');
+	   //--&gt;
+	 &lt;/script&gt;
+	 &lt;h3&gt;
+	   &lt;font color='red'&gt;WARNING: %APPNAME has detected a threat in this&lt;br&gt;file!&lt;br&gt;Threat detected based on user blacklist&lt;br&gt;&lt;/font&gt;
+	 &lt;/h3&gt;
+	 %ACTION&lt;br/&gt;
+	 %APPNAME Administrator: %ADMINMAIL
+	 &lt;br/&gt;&lt;br/&gt;
+	 %TIMESTAMP
+	 &lt;br/&gt;Hardware serial number: %HWSERIALNUMBER
+	 &lt;br/&gt;%APPNAME %APPVERSION - http://www.symantec.com
+	 &lt;br/&gt;&lt;br/&gt;
+	 Machine name: %MACHINENAME
+	 &lt;br/&gt;Machine IP address: %MACHINEIP
+	 &lt;br/&gt;Server: %SERVER
+	 &lt;br/&gt;Client: %CLIENT
+	 &lt;br/&gt;URL: %URL
+	&lt;br/&gt;User comment: %LOCAL_HASHES_USER_COMMENT
+	 &lt;br/&gt;
+   &lt;/body&gt;
+ &lt;/html&gt;</messageTxt><type>BLACKLIST_HASH_BODY</type></templates><templates><type>CYNIC_XHEADER</type></templates><sandboxing><allowed_filetypes>MSCAB</allowed_filetypes><allowed_filetypes>MSI</allowed_filetypes><allowed_filetypes>DOC</allowed_filetypes><allowed_filetypes>EXE</allowed_filetypes><allowed_filetypes>DLL</allowed_filetypes><allowed_filetypes>PPT</allowed_filetypes><allowed_filetypes>PDF</allowed_filetypes><allowed_filetypes>XLS</allowed_filetypes><allowed_filetypes>VSD</allowed_filetypes><counterTack><enabled>false</enabled><password>TzFzXMnD76zvpqJO9un+Ow==</password><server>0.0.0.0</server><useProxy>false</useProxy><username></username></counterTack><cynic><enabled>true</enabled><mandatoryRegion>false</mandatoryRegion><preferredRegion>global</preferredRegion><useExplicitProxy>false</useExplicitProxy></cynic><enabled>true</enabled><fireEye><axEnabled>true</axEnabled><enabled>false</enabled><nxEnabled>false</nxEnabled><nxInterfaceName></nxInterfaceName><server>0.0.0.0</server><username></username></fireEye><lastline><enabled>false</enabled><server>0.0.0.0</server><threatScore>70</threatScore><useExplicitProxy>false</useExplicitProxy></lastline><malwareAppliance><enabled>true</enabled><loadBalancerSupport>false</loadBalancerSupport><servers><apiKey>uN4yfmiF2Ochc+yzBrEbJtcSVuhXg1cKoBM1CoZFy05PMXNcycPvrO+mok726f47</apiKey><enabled>true</enabled><plugins><id>6</id><name>example1.py</name></plugins><plugins><id>4</id><name>ghost_user.py</name></plugins><plugins><id>5</id><name>ghost_user_with_unpacker.py</name></plugins><plugins><id>3</id><name>run-default-browser.py</name></plugins><plugins><id>2</id><name>run-iexplore.py</name></plugins><plugins><id>1</id><name>shellexecute.py</name></plugins><port>8082</port><profiles><default>false</default><id>6</id><name>Recommended Vulnerable Windows10 x64 - Office</name></profiles><profiles><default>true</default><id>5</id><name>Windows 10 64-bit</name></profiles><profiles><default>false</default><id>4</id><name>Windows7 x64 - Office</name></profiles><server>192.168.77.9</server></servers><servers><apiKey></apiKey><enabled>false</enabled><plugins><id>6</id><name>example1.py</name></plugins><plugins><id>4</id><name>ghost_user.py</name></plugins><plugins><id>5</id><name>ghost_user_with_unpacker.py</name></plugins><plugins><id>3</id><name>run-default-browser.py</name></plugins><plugins><id>2</id><name>run-iexplore.py</name></plugins><plugins><id>1</id><name>shellexecute.py</name></plugins><port>9080</port><server>localhost</server></servers><submitToSbx>false</submitToSbx><taskDuplicationPrevention><maximumTaskAge>3600</maximumTaskAge><reusePriorTasks>false</reusePriorTasks></taskDuplicationPrevention><tasks><enabled>true</enabled><plugin>ghost_user_with_unpacker.py</plugin><profile>Windows7 x64 - Office</profile></tasks><tasks><enabled>true</enabled><plugin>ghost_user_with_unpacker.py</plugin><profile>Symantec Recommended Vulnerable Windows10 x64 - Office</profile></tasks><threatAlertScore>7</threatAlertScore><useExplicitProxy>false</useExplicitProxy></malwareAppliance><realTimeSandboxingEnabled>true</realTimeSandboxingEnabled><realTimeTimeout>180</realTimeTimeout><reportMinutesAfterEvent>0</reportMinutesAfterEvent><reportMinutesBeforeEvent>0</reportMinutesBeforeEvent><soleraDeepSee><enabled>false</enabled><server>0.0.0.0</server></soleraDeepSee><symantecEndpointProtection><enabled>true</enabled><password>9p/cj4ofuDDnhOfi9a2nvQ==</password><server>192.168.77.196</server><useProxy>false</useProxy><username>admin</username></symantecEndpointProtection></sandboxing><consentBanner><bannerText>Westcon SYMC WPS Training CAS</bannerText><showConsentBanner>true</showConsentBanner><showLogo>true</showLogo></consentBanner><logo></logo><version>3.1.9.1</version><maSettings>{  "bluecoat-ma-main:ma-settings": {    "vtopd": {      "resize_frame_buffer": "(0,0)",      "capture_frame_buffer": false,      "update_period": 5    },    "network": {      "ipv6": {        "enabled": false      }    },    "webpulse": {      "lookup_timeout": 6,      "refresh_interval": 300,      "max_connections": 100,      "enabled": true,      "online_lookups": true    },    "ivm": {      "detection": [        {          "name": "error_dialogs_enabled",          "value": true        },        {          "name": "crash_dumps_enabled",          "value": true        },        {          "name": "aggregation_policy",          "value": 2        },        {          "name": "max_fs_event_data_size",          "value": 1024        },        {          "name": "hidden_registry_keys",          "value": "[u'hklm\\\\system\\\\currentcontrolset\\\\services\\\\sharkd', u'hklm\\\\system\\\\currentcontrolset\\\\services\\\\ivmservice', u'hklm\\\\system\\\\currentcontrolset\\\\services\\\\sregmon', u'hklm\\\\system\\\\currentcontrolset\\\\services\\\\sprocmon', u'hklm\\\\system\\\\currentcontrolset\\\\services\\\\srootkit', u'hklm\\\\system\\\\currentcontrolset\\\\services\\\\nfsmon', u'hklm\\\\system\\\\currentcontrolset\\\\services\\\\snetmon', u'hklm\\\\system\\\\currentcontrolset\\\\services\\\\nnetsec', u'hklm\\\\system\\\\currentcontrolset\\\\services\\\\nnetsecl', u'hklm\\\\system\\\\currentcontrolset\\\\services\\\\nnetsecc', u'hklm\\\\system\\\\currentcontrolset\\\\services\\\\ivmnetmon', u'hklm\\\\system\\\\controlset001\\\\services\\\\sharkd', u'hklm\\\\system\\\\controlset001\\\\services\\\\ivmservice', u'hklm\\\\system\\\\controlset001\\\\services\\\\sregmon', u'hklm\\\\system\\\\controlset001\\\\services\\\\sprocmon', u'hklm\\\\system\\\\controlset001\\\\services\\\\srootkit', u'hklm\\\\system\\\\controlset001\\\\services\\\\nfsmon', u'hklm\\\\system\\\\controlset001\\\\services\\\\snetmon', u'hklm\\\\system\\\\controlset001\\\\services\\\\nnetsec', u'hklm\\\\system\\\\controlset001\\\\services\\\\nnetsecl', u'hklm\\\\system\\\\controlset001\\\\services\\\\nnetsecc', u'hklm\\\\system\\\\controlset001\\\\services\\\\ivmnetmon', u'hklm\\\\system\\\\controlset002\\\\services\\\\sharkd', u'hklm\\\\system\\\\controlset002\\\\services\\\\ivmservice', u'hklm\\\\system\\\\controlset002\\\\services\\\\sregmon', u'hklm\\\\system\\\\controlset002\\\\services\\\\sprocmon', u'hklm\\\\system\\\\controlset002\\\\services\\\\srootkit', u'hklm\\\\system\\\\controlset002\\\\services\\\\nfsmon', u'hklm\\\\system\\\\controlset002\\\\services\\\\snetmon', u'hklm\\\\system\\\\controlset002\\\\services\\\\nnetsec', u'hklm\\\\system\\\\controlset002\\\\services\\\\nnetsecl', u'hklm\\\\system\\\\controlset002\\\\services\\\\nnetsecc', u'hklm\\\\system\\\\controlset002\\\\services\\\\ivmnetmon', u'hklm\\\\system\\\\currentcontrolset\\\\enum\\\\root\\\\legacy_sregmon', u'hklm\\\\system\\\\currentcontrolset\\\\enum\\\\root\\\\legacy_sprocmon', u'hklm\\\\system\\\\currentcontrolset\\\\enum\\\\root\\\\legacy_srootkit', u'hklm\\\\system\\\\currentcontrolset\\\\enum\\\\root\\\\legacy_nfsmon', u'hklm\\\\system\\\\currentcontrolset\\\\enum\\\\root\\\\legacy_snetmon', u'hklm\\\\system\\\\currentcontrolset\\\\enum\\\\root\\\\legacy_nnetsecc', u'hklm\\\\system\\\\currentcontrolset\\\\enum\\\\root\\\\legacy_nnetsecl', u'hklm\\\\system\\\\currentcontrolset\\\\enum\\\\root\\\\legacy_ivmnetmon', u'hklm\\\\system\\\\currentcontrolset\\\\enum\\\\root\\\\nnetsec_mp', u'hklm\\\\system\\\\controlset001\\\\enum\\\\root\\\\legacy_sregmon', u'hklm\\\\system\\\\controlset001\\\\enum\\\\root\\\\legacy_sprocmon', u'hklm\\\\system\\\\controlset001\\\\enum\\\\root\\\\legacy_srootkit', u'hklm\\\\system\\\\controlset001\\\\enum\\\\root\\\\legacy_nfsmon', u'hklm\\\\system\\\\controlset001\\\\enum\\\\root\\\\legacy_snetmon', u'hklm\\\\system\\\\controlset001\\\\enum\\\\root\\\\legacy_nnetsecc', u'hklm\\\\system\\\\controlset001\\\\enum\\\\root\\\\legacy_nnetsecl', u'hklm\\\\system\\\\controlset001\\\\enum\\\\root\\\\legacy_ivmnetmon', u'hklm\\\\system\\\\controlset001\\\\enum\\\\root\\\\nnetsec_mp', u'hklm\\\\system\\\\controlset002\\\\enum\\\\root\\\\legacy_sregmon', u'hklm\\\\system\\\\controlset002\\\\enum\\\\root\\\\legacy_sprocmon', u'hklm\\\\system\\\\controlset002\\\\enum\\\\root\\\\legacy_srootkit', u'hklm\\\\system\\\\controlset002\\\\enum\\\\root\\\\legacy_nfsmon', u'hklm\\\\system\\\\controlset002\\\\enum\\\\root\\\\legacy_snetmon', u'hklm\\\\system\\\\controlset002\\\\enum\\\\root\\\\legacy_nnetsecc', u'hklm\\\\system\\\\controlset002\\\\enum\\\\root\\\\legacy_nnetsecl', u'hklm\\\\system\\\\controlset002\\\\enum\\\\root\\\\legacy_ivmnetmon', u'hklm\\\\system\\\\controlset002\\\\enum\\\\root\\\\nnetsec_mp', u'hklm\\\\drivers\\\\driverdatabase\\\\driverpackages\\\\nnetsecl64.inf_amd64_fd5baeb4dea2d509', u'hklm\\\\hardware\\\\acpi\\\\dsdt\\\\vbox__', u'hklm\\\\hardware\\\\acpi\\\\fadt\\\\vbox__', u'hklm\\\\hardware\\\\acpi\\\\rsdt\\\\vbox__', u'hklm\\\\system\\\\currentcontrolset\\\\enum\\\\pci\\\\ven_80ee&amp;dev_beef&amp;subsys_00000000&amp;rev_00', u'hklm\\\\system\\\\currentcontrolset\\\\enum\\\\pci\\\\ven_80ee&amp;dev_cafe&amp;subsys_00000000&amp;rev_00', u'hklm\\\\system\\\\controlset001\\\\enum\\\\pci\\\\ven_80ee&amp;dev_beef&amp;subsys_00000000&amp;rev_00', u'hklm\\\\system\\\\controlset001\\\\enum\\\\pci\\\\ven_80ee&amp;dev_cafe&amp;subsys_00000000&amp;rev_00', u'hklm\\\\system\\\\controlset002\\\\enum\\\\pci\\\\ven_80ee&amp;dev_beef&amp;subsys_00000000&amp;rev_00', u'hklm\\\\system\\\\controlset002\\\\enum\\\\pci\\\\ven_80ee&amp;dev_cafe&amp;subsys_00000000&amp;rev_00']"        },        {          "name": "fake_memory_size_enabled",          "value": true        },        {          "name": "pcap_snaplen",          "value": 15284        },        {          "name": "max_goat_files",          "value": 100        },        {          "name": "qemu_signaling_enabled",          "value": true        },        {          "name": "hidden_registry_values",          "value": "[u'hklm\\\\hardware\\\\description\\\\system\\\\systembiosversion', u'hklm\\\\hardware\\\\devicemap\\\\scsi\\\\scsi port 0\\\\scsi bus 0\\\\target id 0\\\\logical unit id 0\\\\identifier', u'hklm\\\\hardware\\\\description\\\\system\\\\systembiosdate', u'hklm\\\\hardware\\\\description\\\\system\\\\videobiosversion', u'hklm\\\\system\\\\currentcontrolset\\\\control\\\\network\\\\{4D36E974-E325-11CE-BFC1-08002BE10318}\\\\Descriptions\\\\Norman Network Security miniport', u'hklm\\\\system\\\\currentcontrolset\\\\control\\\\network\\\\{4D36E972-E325-11CE-BFC1-08002BE10318}\\\\Descriptions\\\\Norman Network Security miniport', u'hklm\\\\system\\\\controlset001\\\\control\\\\network\\\\{4D36E974-E325-11CE-BFC1-08002BE10318}\\\\Descriptions\\\\Norman Network Security miniport', u'hklm\\\\system\\\\controlset001\\\\control\\\\network\\\\{4D36E972-E325-11CE-BFC1-08002BE10318}\\\\Descriptions\\\\Norman Network Security miniport', u'hklm\\\\system\\\\controlset002\\\\control\\\\network\\\\{4D36E974-E325-11CE-BFC1-08002BE10318}\\\\Descriptions\\\\Norman Network Security miniport', u'hklm\\\\system\\\\controlset002\\\\control\\\\network\\\\{4D36E972-E325-11CE-BFC1-08002BE10318}\\\\Descriptions\\\\Norman Network Security miniport']"        },        {          "name": "pcap_file_max_size",          "value": 52428800        },        {          "name": "paranormal_enabled",          "value": true        },        {          "name": "disable_screenshots",          "value": false        },        {          "name": "insomnia_enabled",          "value": true        },        {          "name": "umf_enabled",          "value": true        },        {          "name": "dll_injection_enabled",          "value": true        },        {          "name": "max_net_event_data_size",          "value": 1600        },        {          "name": "suspend_processes_enabled",          "value": true        },        {          "name": "monitor_wmi_enabled",          "value": true        },        {          "name": "load_rklib",          "value": true        },        {          "name": "adjust_exploit_stack_limits",          "value": true        },        {          "name": "max_reg_event_data_size",          "value": 1024        },        {          "name": "max_sys_event_data_size",          "value": 1024        },        {          "name": "protected_files",          "value": "[u'c:\\\\py\\\\', u'c:\\\\windows\\\\system32\\\\ivm\\\\', u'c:\\\\windows\\\\system32\\\\paranormal.exe']"        },        {          "name": "page_fault_enabled",          "value": true        },        {          "name": "hide_processes_enabled",          "value": true        },        {          "name": "super_processes",          "value": "[u'c:\\\\py\\\\python.exe', u'c:\\\\py\\\\pythonw.exe', u'c:\\\\windows\\\\system32\\\\tlntsrv.exe']"        },        {          "name": "fake_disk_size_enabled",          "value": true        },        {          "name": "random_hostname_enabled",          "value": false        }      ],      "bugcheck_dump": {        "enable": false,        "timeout": 300,        "type": 3      },      "stream_listener_timeout": 10,      "script_timeout": 60,      "limit_events": 100000,      "ivmservice": {        "custom_scripts": ""      },      "build": {        "max_attempts": 1,        "watchdog": {          "enable": true        },        "verify": {          "basic_events": true,          "basic_events_timeout": 30        }      },      "iso_import": {        "untested_images": false      },      "customize": {        "pagefile": {          "enable": true        },        "kva_shadowing": {          "enable": false        },        "events_log": {          "enable": true        },        "port_forwarding": "",        "services": {          "rdp": true,          "file_sharing": true,          "vnc": false        },        "name_server": "8.8.8.8"      },      "macaddress": "random"    },    "ivm_watchdog": {      "timeout": 600,      "sleep": 300    },    "bootstrap": {      "loglevel": 6    },    "environments": {      "pause_processing": 0    },    "analytics": {      "file_reputation": {        "lookup_timeout": 6,        "max_connections": 100,        "enabled": true,        "max_hashes_per_lookup": 30,        "per_task_timeout": 30      }    },    "rapi": {      "enable_authentication": true,      "session_duration": 120,      "max_sample_size": 100,      "url_token": false,      "autoroute_samples": true,      "sample_resource_compressed_password": "infected"    },    "cleanup": {      "min_interval": 1,      "min_score": 10,      "percentage_override": 68,      "score_before_age": true,      "fifo": true,      "keep_interval": 7,      "keep_score": 6,      "max_queue_size": {        "enabled": false,        "ivm": 0,        "sbx": 0,        "mvm": 0,        "apple": 0      },      "max_tasks": {        "limit": 0,        "max_to_delete": 1000      },      "max_samples": {        "limit": 0,        "max_to_delete": 1000      }    },    "main": {      "cascade_delete_profiles": false,      "yara_enabled": true,      "event_cache_expire": 300,      "phit_cache_expire": 600,      "virus_total_key": ""    },    "updates": {      "auto_download": true,      "enabled": true,      "action_passive": "automatic"    },    "telemetry": {      "enabled": true,      "tags": ""    },    "remote_syslog": {      "enabled": false,      "server": "",      "port": 514,      "protocol": "udp"    },    "task-defaults": [      {        "name": "ivm.primary_resource_name",        "value": "_SYSTEM_:ghost_user.py"      },      {        "name": "ivm.tp_ANALYTICS.PCAP.CREATE_HAR",        "value": "1"      },      {        "name": "ivm.tp_DEF.ivm_plugin",        "value": "_SYSTEM_:ghost_user.py"      },      {        "name": "ivm.tp_IVM.TIMEOUT",        "value": "60"      }    ],    "health-settings": {      "redis": {        "enabled": false,        "query_interval": 30      },      "database": {        "enabled": false,        "query_interval": 300      },      "elasticsearch": {        "enabled": true,        "query_interval": 30,        "store_size_yellow": 10240,        "heap_percent_yellow": 90,        "cpu_percent_yellow": 95      },      "queues": {        "enabled": true,        "query_interval": 30      },      "mounts": {        "enabled": true,        "query_interval": 60,        "mount_percent_yellow": 70,        "mount_percent_red": 90      },      "system": {        "enabled": true,        "query_interval": 30      },      "semaphores": {        "enabled": true,        "query_interval": 30      },      "rabbitmq": {        "enabled": true,        "query_interval": 60      },      "updates": {        "enabled": true,        "query_interval": 60      },      "mvm": {        "enabled": true,        "query_interval": 30      },      "apple": {        "enabled": true,        "query_interval": 30      },      "raid": {        "enabled": true,        "query_interval": 60      },      "process": {        "enabled": true,        "query_interval": 30      },      "profiles": {        "enabled": true,        "query_interval": 300      }    },    "analysis": {      "keep_fs_paths": "",      "keep_reg_values": "",      "keep_reg_keys": ""    },    "nexus": {      "monitor": {        "interval": 10      },      "stored_actions": {        "interval": 60,        "action_interval": 1      },      "remote_host": {        "enabled": false,        "timeout": 30,        "url": "",        "auth": {          "enabled": false,          "username": ""        },        "keep_report": true,        "update_report": false,        "index": {          "prefix": "nexus",          "shards": 5,          "replicas": 1        }      },      "local_host": {        "enabled": true,        "timeout": 15,        "es_config": {          "custom_heap_size": false,          "custom_heap_size_mb": 1024        },        "keep_report": false,        "update_report": true,        "index": {          "prefix": "nexus",          "shards": 2        }      }    }  }}</maSettings><phantomCyber><authToken>TzFzXMnD76zvpqJO9un+Ow==</authToken><containerLabel>suspicious_binary</containerLabel><enabled>false</enabled><url></url><useProxy>false</useProxy></phantomCyber></configuration>
